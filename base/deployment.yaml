@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: intranet-db
-          image: docker.io/oscarpro/mysql-80
+          image: docker.io/at1969/mysql-80
           envFrom:
             - secretRef:
                 name: intranet-db
