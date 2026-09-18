@@ -66,5 +66,5 @@ spec:
       volumes:
         - name: mysqldb
           persistentVolumeClaim:
-            claimName: intranet-dbb
+            claimName: intranet-db
 ...
